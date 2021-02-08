@@ -3,7 +3,8 @@
 Este artigo tem como objetivo esclarecer os conceitos e citar exemplos práticos
 da Cláusula WITH conhecida como CTE(Commom table expression). As formas abaixo são uteis no dia a dia de cada desenvolvedor/dba.
 
-A CTE é muito utilizada a fim de tunar queries, basicamente ela é uma instrução Select que cria uma espécie de tabela temporária(um result set) com seu resultado. Então em cima desse resultado efetuamos novas instruções SQL e isso facilita muito consultas complicadas. 
+A CTE é muito utilizada a fim de tunar queries, basicamente ela é uma instrução Select que cria uma espécie de tabela temporária(um result set) com seu resultado. 
+Então em cima desse resultado efetuamos novas instruções SQL e isso facilita muito consultas complicadas. 
 
 Estrutura de uma CTE 
 ```
@@ -15,7 +16,8 @@ SELECT
 FROM CTE;
 ```
 
-Digamos que seu gestor pede um relatório para descobrir quem são os funcionários mais antigos de cada departamento atualmente. Na tabela Employees nós temos o Código do departamento e também a data de contratação.
+Digamos que seu gestor pede um relatório para descobrir quem são os funcionários mais antigos de cada departamento atualmente. 
+Na tabela Employees nós temos o Código do departamento e também a data de contratação.
 
 ![Image](https://bn1301files.storage.live.com/y4m2OJUBobDEw4_o5drQbuBcoNV14jhOIHs8TxQCoA9P8SEas2GyDjeIdbCyZqkZtwHJcyindmZHxC6G3HcZkUViJ52v7pfFmqFKhYSuVLXv_e5ECC2HAB26rpU0LWaLB_AIYijBGjfLYasIfzXxBEtHixhO5eQuH4e6uHHzJuqyUkZpwdlf5e2WuM_D42CIPDT?width=628&height=300&cropmode=none)
 
